@@ -562,24 +562,6 @@ progress {
   margin-right: 0.5rem;
 }
 
-.initialism {
-  font-size: 0.875em;
-  text-transform: uppercase;
-}
-
-.blockquote {
-  margin-bottom: 1rem;
-  font-size: 1.25rem;
-}
-.blockquote > :last-child {
-  margin-bottom: 0;
-}
-
-
-.img-fluid {
-  max-width: 100%;
-  height: auto;
-}
 
 .caixa {
   display: flex;
@@ -628,30 +610,10 @@ progress {
   border: 2px solid;
 }
 
-.img-thumbnail {
-  padding: 0.25rem;
-  background-color: #fff;
-  border: 1px solid var(--bs-border-color);
-  border-radius: 0.375rem;
-  max-width: 100%;
-  height: auto;
-}
 
-.figure {
-  display: inline-block;
-}
 
-.figure-img {
-  margin-bottom: 0.5rem;
-  line-height: 1;
-}
 
-.figure-caption {
-  font-size: 0.875em;
-  color: #6c757d;
-}
-
-.beneficios {
+.sep_item {
   background: #FFFFFF;
  
 }
@@ -665,15 +627,7 @@ li {
   list-style-type: none;
 }
 
-.imagembeneficios {
-  width: 50%;
-}
-.container-news {
-  border: solid 2px;
-  text-shadow: white 0px 0px 2px;
-  font-size: 16px;
-  background-size: 150px;
-}
+
 
 .container,
 .container-fluid,
@@ -689,6 +643,7 @@ li {
   padding-left: calc(var(--bs-gutter-x) * 0.5);
   margin-right: auto;
   margin-left: auto;
+  
 }
 
 @media (min-width: 576px) {
@@ -11699,3 +11654,23 @@ img {
 .colu:nth-of-type(odd) {
   background-color: #e0e0e0;
 }
+
+.wrapper {
+  background-color: black;
+  height: 1px;
+  margin: 32px 0 0;
+  text-align: center;
+}
+
+span {
+  position: relative;
+  top: -8px;
+  padding: 0 15px;
+  font-weight: 500;
+  border-radius: 4px;
+  text-transform: uppercase;
+  font-size: 1em;
+  color: #000000;
+  background: #ffffff;
+}
+
